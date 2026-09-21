@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "CodeLoom Engine",
+  "theme": "luma",
+  "colors": {
+    "primary": "#f59e0b",
+    "light": "#cf4d2d",
+    "dark": "#662c20"
+  },
+  "favicon": "https://media.brand.dev/b6070c0d-fcbb-4769-a0f5-d760f4387495.png",
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/iresharma/codeloom.engine"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/iresharma/codeloom.engine"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/agent-loop",
+              "architecture/write-funnel",
+              "architecture/persistence"
+            ]
+          },
+          {
+            "group": "Agent Personalities",
+            "pages": [
+              "agents/overview",
+              "agents/ask",
+              "agents/coder",
+              "agents/tester",
+              "agents/researcher",
+              "agents/debugger",
+              "agents/reviewer"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/mcp-servers",
+              "integrations/skills",
+              "integrations/language-support"
+            ]
+          },
+          {
+            "group": "Extending",
+            "pages": [
+              "extending/adding-a-tool",
+              "extending/adding-a-profile",
+              "extending/adding-a-skill",
+              "extending/adding-a-command"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Protocol Reference",
+        "groups": [
+          {
+            "group": "Wire Protocol",
+            "pages": [
+              "protocol/overview",
+              "protocol/commands",
+              "protocol/events",
+              "protocol/snapshot"
+            ]
+          },
+          {
+            "group": "Tool Reference",
+            "pages": [
+              "tools/navigation",
+              "tools/editing",
+              "tools/tree-sitter",
+              "tools/lsp",
+              "tools/shell-git",
+              "tools/web-http",
+              "tools/github",
+              "tools/memory-skills"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/metrics",
+              "operations/benchmarking",
+              "operations/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
